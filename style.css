@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+/* entire body */
+body{
+    position: relative;
+    background:white;
+}
+.aside{
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width:250px;
+        height: calc(100vh - 60px);
+        background:white;       
+}
+/* header section */
+.header{
+    display: flex;
+    justify-content:space-between;
+    top:0;
+    left:0;
+    background: white;
+}
+.header1{
+    display: flex;align-items: center;
+}
+.header1 img{
+    width:100px;
+    height: 50px;
+}
+.header3{
+    display: flex;
+    align-items: center;
+}
+.header3 img{padding:0px 20px;}
+.header2{
+    display: flex; align-items: center;height: 20px;
+    border: 1px solid black;
+    margin-top:10px;
+    padding:15px 3px;
+    border-radius: 15px;
+    width: 450px;
+}
+.header2 input{background: transparent;
+    border: 0px;
+    outline: 0px;   
+}
+.header2 input{
+   width:900px;
+   border-radius: 0;
+   height: 30px;}
+/* creating sidebar */
+.aside{
+    width: 320px;
+    overflow-y: scroll;
+}
+.aside img{ margin-right: 20px;}
+.sidebar {
+   padding: 10px  39px;
+   display: block;
+}.sidebar p{font-size: 25px;}
+.aside a{ text-decoration: none;color:black;}
+.sidebar .link :hover{background-color: gray;}
+.sidebar img{
+    width:20px;
+    height:20px;
+}
+.sidebar2 img {width: 30px;}
+.container {
+    position: fixed;
+    left:320px;
+    height:68px;
+    border-top: 1px;
+    width:calc(100%-300px); 
+}
+.startbar {
+     overflow-x:scroll ;
+      width: calc(100% - 260px);
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      padding-left: 14px;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white
+}.container::-webkit-scrollbar{display: none;}
+.menu button
+{ border:1px solid black;
+    border-radius: 20px;
+    padding: 10px 40px;margin-right: 20px;
+    background-color: white;
+}
+.menu1 button{
+    margin-right: 20px;width:100px;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}.startbar button:hover{background-color:gray}
+.video{
+    display: flex; 
+}
+.video-section iframe{
+    margin-left:50px;
+    margin-top: 73px;
+    width: 380px;
+    height: 200px;
+    }
+    .video-section1 iframe{
+        margin-left:350px;
+        margin-top: 73px;
+        width: 380px;
+        height: 200px;
+        }
+.logo img{
+    width:30px;
+    margin-bottom: -294px;
+    margin-left: -365px;;
+}
+.details {
+   margin-top: 280px;
+   margin-left: -330px;; 
+}
+
